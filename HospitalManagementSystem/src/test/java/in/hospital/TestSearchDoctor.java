@@ -6,6 +6,11 @@ import org.junit.Test;
 
 public class TestSearchDoctor {
 	
+	/**
+	 * This method is used to check the testcase for search patient
+	 */
+	
+	
 	@Test
 	public void testSearchPatient1() {
 		

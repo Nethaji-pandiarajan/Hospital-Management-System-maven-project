@@ -6,7 +6,7 @@ import org.junit.Test;
 
 public class TestDeleteDoctor {
 	/**
-	 * add the doctor name and delete
+	 * This method is used to check the test case for delete the doctor name
 	 */	
 	
 	@Test

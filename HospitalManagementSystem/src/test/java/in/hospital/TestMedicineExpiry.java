@@ -8,10 +8,15 @@ import org.junit.Test;
 
 public class TestMedicineExpiry {
 
+	/**
+	 * This method is used to check the testcase for medicine expiry
+	 */
+	
 	@Test
 	public void testMedicineExpiry1() {
 		MedicineDetailData medicine1 = new MedicineDetailData();
-		medicine1.medicineId = 1;
+		int id = 1;
+		medicine1.medicineId = id;
 		medicine1.medicineName ="Paracetamal";
 		medicine1.medicinePrice = 10;
 		medicine1.medicineExpiry = LocalDate.parse("2023-10-20");
@@ -29,7 +34,7 @@ public class TestMedicineExpiry {
 //		LocalDate expiryDate = medicine2.medicineExpiry;
 		System.out.println( medicine2.medicineName  + " medicine is Expired");
 //		assertTrue(today.isAfter(expiryDate));
-		assertTrue(MedicineDetails.isMedicineExpired(1));
+		assertTrue(MedicineDetails.isMedicineExpired(id));
 		
 	}
 	

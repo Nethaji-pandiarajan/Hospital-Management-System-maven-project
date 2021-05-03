@@ -8,6 +8,10 @@ import org.junit.Test;
 
 public class TestAddMedicine {
 
+	/**
+	 * This method is used to check the test case for add medicine
+	 */
+	
 	@Test
 	public void testAddMedicine() {
 		MedicineDetailData medicine1 = new MedicineDetailData();

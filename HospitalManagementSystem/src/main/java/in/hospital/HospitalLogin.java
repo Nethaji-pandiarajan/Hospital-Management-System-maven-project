@@ -1,13 +1,11 @@
 package in.hospital;
 import java.util.ArrayList;
-import java.util.List;
-
 public class HospitalLogin {
 	
 	// Used to store array list of user name and password
 	
-	static List<String> username = new ArrayList<String>();
-	static List<String> password = new ArrayList<String>();
+	static ArrayList<String> username = new ArrayList<String>();
+	static ArrayList<String> password = new ArrayList<String>();
 	
 	/**
 	 * This method is used to register login details
@@ -40,22 +38,6 @@ public class HospitalLogin {
 		}
 		return false;
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

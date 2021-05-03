@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class PatientDetails {
 
-	//Creating patientInfo list by using arraylist
+	//Creating patientInfo list by using ArrayList
 	
 	static ArrayList<PatientDetailData> patientInfo = new ArrayList<PatientDetailData>();
 

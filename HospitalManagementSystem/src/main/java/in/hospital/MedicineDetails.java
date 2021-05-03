@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class MedicineDetails {
 
-	//Creating medicineInfo list by using arraylist
+	//Creating medicineInfo list by using ArrayList
 	
 	static ArrayList<MedicineDetailData> medicineInfo = new ArrayList<MedicineDetailData>();
 	
@@ -78,7 +78,7 @@ public class MedicineDetails {
 	/**
 	 * This method is used to check the medicine is expired or not
 	 * 
-	 * @return
+	 * @return 
 	 */
 	
 	public static boolean isMedicineExpired(int medicineId) {

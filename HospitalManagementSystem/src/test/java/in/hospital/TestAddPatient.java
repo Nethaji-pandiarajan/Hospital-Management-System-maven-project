@@ -4,8 +4,10 @@ import org.junit.Test;
 
 public class TestAddPatient {
 
-	// Adding the patient details
-	
+	/**
+	 * This method is used to check the testcase for add the patient details
+	 */
+		
 	@Test
 	public void testAddPatient1() {
 		PatientDetailData patient1 = new PatientDetailData();

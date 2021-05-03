@@ -5,7 +5,11 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class TestDeleteMedicine {
-
+	
+	/**
+	 * This method is used to check the test case for delete medicine
+	 */
+	
 	@Test
 	public void testDeleteMedicine1() {
 		MedicineDetailData medicine1 = new MedicineDetailData();

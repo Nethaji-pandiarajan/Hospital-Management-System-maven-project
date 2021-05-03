@@ -8,6 +8,10 @@ import org.junit.Test;
 
 public class TestSearchMedicine {
 	
+	/**
+	 * This method is used to check the testcase for search medicine
+	 */
+	
 	@Test
 	public void testSearchMedicine1() {
 		

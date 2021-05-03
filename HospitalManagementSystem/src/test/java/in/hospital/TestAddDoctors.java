@@ -5,7 +5,12 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class TestAddDoctors {
-
+	
+	/**
+	 * This method is used to check the testcase for add the doctor
+	 */
+	
+	
 	@Test
 	public void TestAddDoctor1() {
 		String dname = "Venkatesan";
